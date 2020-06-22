@@ -1,0 +1,27 @@
+Install Raspbian Buster Lite
+
+Change hostname
+	- sudo raspi-config
+
+Update Raspbian
+	- sudo apt-get update
+	- sudo apt-get upgrade
+
+Backup image
+	- Win32DiskImager
+
+Install Python libraries
+	- sudo apt-get install python3-dev python3-setuptools python3-rpi.gpio python3-spidev python3-pip python3-git
+
+Install rfid library
+	- sudo pip3 install mfrc522
+
+Enable SPI
+	- sudo raspi-config
+
+Upload script
+	- upload program.py in /home/pi/EscapeRoom
+
+Start script on starup
+	- crontab -e
+		-> add '@reboot python3 /home/pi/EscapeRoom/program.py' at bottom of file

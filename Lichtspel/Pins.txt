@@ -1,0 +1,42 @@
+RFID:
+	SDA : GPIO 8
+	SCK : GPIO 11
+	MOSI : GPIO 10
+	MISO : GPIO 9
+	IRQ : /
+	GND : GND
+	RST : GPIO 25
+	3.3V : 3.3V
+
+Buzzer:
+	+ : GPIO 21
+	- : GND
+
+Motor:
+	+ : 5V
+	- : GND
+	PWM : GPIO 17
+
+LED 1: GPIO 26
+
+BTN 1: GPIO 20
+
+LED 2: GPIO 19
+
+BTN 2: GPIO 16
+
+LED 3: GPIO 13
+
+BTN 3: GPIO 12
+
+LED 4: GPIO 6
+
+BTN 4: GPIO 24
+
+LED 5: GPIO 5
+
+BTN 5: GPIO 23
+
+LED 6: GPIO 22
+
+BTN 6: GPIO 18
